@@ -361,3 +361,124 @@ p {
     top: 50%;
     left: 0;
 } 
+
+@media screen and (max-width : 1024px) {
+    .img-slider {
+        width: 900px;
+        position: relative;
+    }
+    
+    .slide-wrapper {
+        width: 850px;
+        height: 100%;
+    }
+
+
+    .btn-container {
+        width: 100%;
+        position: absolute;
+    }
+    
+    .bl_txt {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .img-slider {
+        width: 100%;
+    }
+    
+    .slide-wrapper {
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+        width: 600px;
+        height: auto;
+    }
+
+    .btn-container {
+        display: none;
+    }
+
+    /* 사진 크기 조절 하는법 모르겠어요 T_T */
+}
+
+/* main slider */
+
+.news_container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+
+.title {
+    text-align: center;
+    color: #1D1D1D;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.news_content {
+    display: flex;
+}
+
+.news_list {
+    max-width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 1px solid #e1e1e1;
+    gap: 30px;
+}
+
+.list-img img {
+    width: 362px;
+    border-radius: 20px;
+}
+
+.list-img p{
+    width: 362px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31px;
+    color: #161616;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    padding: 20px 0 0 0;
+}
+
+.yt_inner img {
+    width: 362px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.hotclip {
+    padding-left: 30px;
+}
+
+.desc_txt p{
+    width: 362px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31px;
+    color: #161616;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    padding: 20px 0 20px 0;
+}
+
+.banner_1 {
+    width: 362px;
+    display: flex;
+    background: #F1F8FE;
+    height: auto;
+}
