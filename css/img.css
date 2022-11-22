@@ -1,0 +1,30 @@
+.facebook {
+    background-image: url(../img/fb_b.svg);
+}
+.youtube {
+    background-image: url(../img/yt_b.svg);
+}
+.insta {
+    background-image: url(../img/insta_b.svg);
+}
+.lang {
+    background-image: url(../img/lang_b.svg);
+}
+
+.button-prev {
+    background-image: url(../img/left_btn.svg);
+    width: 56px;
+    height: 56px;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 23%);
+    border-radius: 54px;
+    opacity: .8;
+}
+
+.button-next {
+    background-image: url(../img/right_btn.svg);
+    width: 56px;
+    height: 56px;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 23%);
+    border-radius: 54px;
+    opacity: .8;
+}
