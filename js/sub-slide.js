@@ -1,4 +1,4 @@
-// 할수있는 방식으로 해보기 (슬라이드)
+// 혼자 할수있는 방식으로 해보기 (슬라이드) 
 
 const imgslides = document.querySelector('.imgslides');
 const imgcard = document.querySelectorAll('.imgslides li');
@@ -106,11 +106,3 @@ function makeSubSlide(slideId,pcSlideCount,tabletSlideCount,mobileSlideCount) {
         prev();
     })
 }
-
-
-
-
-
-
-
-
