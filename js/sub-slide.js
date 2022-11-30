@@ -106,3 +106,5 @@ function makeSubSlide(slideId,pcSlideCount,tabletSlideCount,mobileSlideCount) {
         prev();
     })
 }
+
+// window가 tablet 일때 gap 이 생기지 않아요!!! (╯°□°）╯︵ ┻━┻
