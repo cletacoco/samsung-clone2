@@ -4,8 +4,8 @@ const imgslides = document.querySelector('.imgslides');
 const imgcard = document.querySelectorAll('.imgslides li');
 let currentIdx = 0;
 const imgslideCount = imgcard.length;
-const nextBtn = document.querySelector('.rightbutton img');
-const prevBtn = document.querySelector('.leftbutton img');
+const nextBtn = document.querySelector('.rightbutton');
+const prevBtn = document.querySelector('.leftbutton');
 const imgslideWidth = 380;
 const imgslidemargin = 24;
       
