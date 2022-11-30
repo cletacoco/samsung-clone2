@@ -28,3 +28,23 @@
     border-radius: 54px;
     opacity: .8;
 }
+
+.f_home {
+    background: url(../img/footer_home.svg)no-repeat center center;
+}
+
+.f_fb {
+    background: url(../img/footer_fb.svg)no-repeat center center;
+}
+
+.f_yt {
+    background: url(../img/footer_yt.svg)no-repeat center center;
+}
+
+.f_insta {
+    background: url(../img/footer_insta.svg)no-repeat center center;
+}
+
+.f_lang {
+    background: url(../img/footer_lang.svg)no-repeat center center;
+}
